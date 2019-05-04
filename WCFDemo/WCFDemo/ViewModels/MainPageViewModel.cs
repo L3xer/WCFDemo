@@ -8,18 +8,18 @@ namespace WCFDemo.ViewModels
 {
     public class MainPageViewModel : ViewModelBase
     {
-        private string _input;
+        private string input;
         public string Input
         {
-            get { return _input; }
-            set { SetProperty(ref _input, value); }
+            get { return input; }
+            set { SetProperty(ref input, value); }
         }
 
-        private string _result;
+        private string result;
         public string Result
         {
-            get { return _result; }
-            set { SetProperty(ref _result, value); }
+            get { return result; }
+            set { SetProperty(ref result, value); }
         }
 
         public DelegateCommand Calculate { get; set; }
